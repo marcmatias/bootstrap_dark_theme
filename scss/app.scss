@@ -23,3 +23,13 @@
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+/* 
+    Browser not flashing last theme before 
+    apply actual theme on page refresh
+*/
+body {
+    visibility: hidden;
+    opacity: 0;
+}

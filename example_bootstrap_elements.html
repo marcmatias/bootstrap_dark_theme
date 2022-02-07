@@ -53,9 +53,9 @@
           </li>
           <li>
             <div class="btn-group ms-auto" role="group">
-              <a id="darkmode-button" class="btn btn-outline-light">
-                <i class="bi bi-moon"></i>
-                <i class="bi bi-sun"></i>
+              <a id="darkmode-button" class="btn btn-outline-light" onclick="toggleTheme()">
+                <i id="moon" class="bi bi-moon"></i>
+                <i id="sun" class="bi bi-sun"></i>
               </a>
             </div>
           </li>
@@ -1704,9 +1704,7 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
-  <script>
-    function toggleTheme() { document.body.classList.toggle("dark") }
-  </script>
+    <script src="./js/themePage.js"></script>
 </body>
 
 </html>
